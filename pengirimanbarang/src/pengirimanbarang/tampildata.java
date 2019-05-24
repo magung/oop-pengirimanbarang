@@ -179,7 +179,6 @@ public class tampildata extends javax.swing.JFrame {
         // TODO add your handling code here:
         datagridview form1=new datagridview();
             form1.setVisible(true);
-            this.setVisible(false);
     }//GEN-LAST:event_backActionPerformed
 
     private void outActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_outActionPerformed

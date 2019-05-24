@@ -123,7 +123,7 @@ public class datagridview extends javax.swing.JFrame {
         txtnama.setText(null);
         jFormattedTextField1.setText(null);
         cbkodebatik.setSelectedItem("");
-       txtmotif.setText(null);
+        txtmotif.setText(null);
         jml_kodi.setText(null);
         txttotalharga.setText(null);
         txtbiayakirim.setText(null);
@@ -135,7 +135,7 @@ private void set_text(int rows){
     //txtnama.setText(tabel_output.getValueAt(row, 1).toString());
     
     
-    txtnokirim.setText(tabel_output.getModel().getValueAt(rows,0).toString());
+        txtnokirim.setText(tabel_output.getModel().getValueAt(rows,0).toString());
         txtnama.setText(tabel_output.getValueAt(rows,1).toString());
         jFormattedTextField1.setText(tabel_output.getValueAt(rows,2).toString());
         cbkodebatik.setSelectedItem(tabel_output.getValueAt(rows,3).toString());
@@ -663,10 +663,10 @@ private void set_text(int rows){
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(panelutama, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(602, Short.MAX_VALUE)
                 .addComponent(filler1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
+            .addComponent(panelutama, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         bindingGroup.bind();
